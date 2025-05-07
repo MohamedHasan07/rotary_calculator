@@ -1,0 +1,183 @@
+header{
+    text-align: center;
+}
+body{
+    
+    background-color: rgb(181, 248, 248);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    
+
+}
+.container{
+    width: 430px;
+    height: 430px;
+    background-color:wheat;
+    border-radius: 50%;
+    border: 15px solid rgb(20, 20, 20);
+    position: relative;
+    overflow: hidden;
+    transition: 5s;
+}
+ .container div{
+    height: 50%;
+    width: 200px;
+    position: absolute;
+    clip-path: polygon(100% 0,50% 100%,0 0);
+    transform-origin: bottom;
+    display: flex;
+    align-items:baseline ;
+    justify-content:center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    left: 115px;
+ }
+ .container .zero{
+    background-color: blueviolet;
+    
+    transform: rotate(0deg);
+ }
+ .container .one{
+    background-color: brown;
+    transform: rotate(39deg);
+ }
+ .container .two{
+    background-color: blue;
+    transform: rotate(74deg);
+ }
+ .container .three{
+    background-color:darkgoldenrod;
+    transform: rotate(108deg);
+ }
+ .container .four{
+    background-color: cornflowerblue;
+    transform: rotate(144deg);
+ }
+ .container .five{
+    background-color: crimson;
+    transform: rotate(180deg);
+ }
+ .container .six{
+    background-color: darkorange;
+    transform: rotate(215deg);
+}
+.container .seven{
+    background-color: darkorchid;
+    transform: rotate(250deg);
+}
+.container .eight{
+    background-color: yellow;
+    transform: rotate(288deg);
+   
+
+}
+.container .nine{
+    background-color: tomato;
+    transform: rotate(324deg);
+  
+    
+}
+ 
+.arrow::before{
+  
+   font-size: 50px;
+}
+
+#calculate{
+   position: absolute;
+   top:60%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   z-index: 10;
+   border: 15px soild #080808;
+   background-color: aliceblue;
+   font-weight: bold;
+   font-size: 30px;
+   color:rgb(247, 140, 10);
+   width: 70px;
+   height: 70px;
+   font-family: sans-serif;
+   border-radius: 50%;
+   cursor: pointer;
+   outline:none
+   }
+
+   #add{
+      position: absolute;
+      top:48%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 10;
+      border: 15px soild #080808;
+      background-color: aliceblue;
+      font-weight: bold;
+      font-size: 30px;
+      color:rgb(247, 140, 10);
+      width: 70px;
+      height: 70px;
+      font-family: sans-serif;
+      border-radius: 50%;
+      cursor: pointer;
+      outline:none
+    }
+    #sub{
+      position: absolute;
+      top:72%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 10;
+      border: 15px soild #080808;
+      background-color: aliceblue;
+      font-weight: bold;
+      font-size: 30px;
+      color:rgb(247, 140, 10);
+      width: 70px;
+      height: 70px;
+      font-family: sans-serif;
+      border-radius: 50%;
+      cursor: pointer;
+      outline:none
+    }
+    #mul{
+      position: absolute;
+      top:60%;
+      left: 64.5%;
+      transform: translate(-50%,-50%);
+      z-index: 10;
+      border: 15px soild #080808;
+      background-color: aliceblue;
+      font-weight: bold;
+      font-size: 30px;
+      color:rgb(247, 140, 10);
+      width: 70px;
+      height: 70px;
+      font-family: sans-serif;
+      border-radius: 50%;
+      cursor: pointer;
+      outline:none
+    }
+    #div{
+      position: absolute;
+      top:60%;
+      left: 35.5%;
+      transform: translate(-50%,-50%);
+      z-index: 10;
+      border: 15px soild #080808;
+      background-color: aliceblue;
+      font-weight: bold;
+      font-size: 30px;
+      color:rgb(247, 140, 10);
+      width: 70px;
+      height: 70px;
+      font-family: sans-serif;
+      border-radius: 50%;
+      cursor: pointer;
+      outline:none
+    }
+
